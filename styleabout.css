@@ -1,0 +1,142 @@
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.logo {
+    width:26px;
+    height:26px;
+    font-size: 150%;
+    border-radius: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.head1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+.elementary {
+    margin: 50px;
+}
+.overview {
+    text-align: center;
+    margin: 0px;
+}
+.elempic {
+    margin-right: 60px;
+    margin-left: 0px;
+    border-radius: 30px;
+    float: left; 
+    height: 250px; 
+    width: 400px;
+}
+body {
+    background-color: yellow;
+    font-size: 150%;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: yellow;
+    font-size: 16px;
+    block-size: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(20, 222, 175);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(247, 5, 5);
+    background-color: transparent;
+    text-decoration: underline;
+}
+.highschool {
+    margin-left: 20px;
+    .highschool-courses {
+        margin-left: 40px;
+    }
+    margin: 50px;
+    }
+.university {
+    margin-left: 20px;
+    .university-courses {
+        margin-left: 40px;
+    }
+    margin: 50px;
+}
+section {
+    padding: 20px;
+    background-color:black;
+    color:#f3ef8d;
+    margin: 20px;
+    box-shadow: 3px 3px 5px #888, -3px -3px 5px white;
+    border-radius: 30px;
+}
+.unipic {
+    float: left;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.footer {
+    background-color: black;
+    color: #f3ef8d;
+    text-align: center;
+    box-sizing: border-box;
+}
+.final-paragraph {
+    margin: 20px;
+}
+.highpic {
+    float: left;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.hover:hover {
+    color: black;
+    background-color: #f3ef8d;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+ul li ul.dropdown {
+    display: none;
+    width: 100%
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    margin-left: 20px;
+}
+ul li ul li a {
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 30px;
+    list-style-type: square;
+    border-radius: 20px;
+
+}
+ul li ul li a:hover {
+    background-color: rgb(20, 222, 175);
+    color: black;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}

@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0074a2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0074a2;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+address {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: #0074a2;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Add additional CSS styles for your specific design preferences */
